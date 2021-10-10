@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Ultimate Hawaiian Pizza Form</title>
+        <title>Smoky Pepperoni Mushroom Pizza Form</title>
     </head>
     <body>
-        <div id="header"><img src="UHP image.jpg" height="100px" width="100px"><h1>Ultimate Hawaiian Pizza Form</h1></div>
+        <div id="header"><img src="SPM image.jpg" height="100px" width="100px"><h1>Smoky Pepperoni Mushroom Pizza Form</h1></div>
                 <table>
                 <tr>
                     <td class="label">First Name</td>
