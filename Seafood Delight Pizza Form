@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Seafood Delight Pizza Form</title>
+    </head>
+    <body>
+        <div id="header"><img src="SD image.jpg" height="100px" width="100px"><h1>Seafood Delight Pizza Form</h1></div>
+                <table>
+                <tr>
+                    <td class="label">First Name</td>
+                    <td><input type="text" size="30px" maxlength="20" required name="FirstName" placeholder="FirstName"></td>
+                </tr>
+               <tr>
+                   <td class="label">Last Name</td>
+                   <td><input type="text" size="30px" maxlength="20" required name="LastName" placeholder="LastName"></td>
+               </tr>
+               <tr>
+                <td class="label">Age</td>
+                <td><input type="text" size="30px" maxlength="20" required name="Age" placeholder="Age"></td>
+            </tr>
+               <tr>
+                   <td class="label">Phone Number</td>
+                   <td><input type="tel" size="30px" maxlength="10" required name="PhoneNumber" placeholder="Phone Number"></td>
+               </tr>
+               <tr>
+                   <td class="label">Email</td>
+                   <td><input type="email" size="30px" required name="Email" placeholder="Email"></td>
+               </tr>
+               <tr>
+                   <td class="label">Date of Birth</td>
+                   <td><input type="date" size="30px" required name="DOB"></td>
+               </tr>
+               <tr>
+                   <td class="label">Gender</td>
+                   <td>Male<input type="radio" size="30px" required name="Gender1">Female<input type="radio" size="30px" required name="Gender1"></td>
+               </tr>
+               <tr>
+                   <td class="label">Country</td>
+                   <td><select name="Country" id="Country">
+                       <option value="-1" selected>Choose you country!</option>
+                       <option value="1">Malaysia</option>
+                       <option value="2">India</option>
+                       <option value="3">Singapore</option>
+                       <option value="4">Thailand</option>
+                       <option value="5">China</option>
+                   </select></td>
+               </tr>
+               <tr>
+                <td class="label">Domino's Shop</td>
+                <td><select name="Domino's Shop" id="Domino's Shop">
+                    <option value="-1" selected>Choose the closest Domino's Shop to your location!</option>
+                    <option value="1">Jalan Ipoh Domino's Shop</option>
+                    <option value="2">Ampang Domino's Shop</option>
+                    <option value="3">KLCC Domino's Shop</option>
+                    <option value="4">Mid Valley Megamall Domino's Shop</option>
+                    <option value="5">Sunway Putra Mall Domino's Shop</option>
+                </select></td>
+            </tr>
+               <tr>
+                   <td class="label">Address</td>
+                   <td><textarea name="Address" id="Address" cols="40" rows="10"></textarea></td>
+               </tr>
+               <tr>
+                   <td class="label">Username</td>
+                   <td><input type="text" size="30px" maxlength="15" required placeholder="Username" name="Username"></td>
+               </tr>
+               <tr>
+                   <td class="label">Password</td>
+                   <td><input type="password" size="30px" required placeholder="Password" name="Password"></td>
+               </tr>
+               <tr>
+                   <td colspan="2"><input type="submit" size="30px" name="Submit" value="Submit"><input type="reset" size="30px" name="Reset" value="Reset"></td>
+               </tr>
+                </table>
+                <footer>Terms & Conditions Apply</footer>
+                <ul>
+                    <li>Pls do note that the submission of your form might take some time due to the region that you live in.</li>
+                </ul>        
+                <p>Copyright @2021 by Kirrthana</p>
+        </footer>
+    </body>
+</html>
