@@ -1,0 +1,46 @@
+#header{
+    color: cornflowerblue;
+    font-size: medium;
+}
+a:link{
+color:darkblue;
+}
+a:visited{
+color: darkorange;
+}
+a:hover{
+color: forestgreen;
+font-size: large;
+}
+a:active{
+color: fuchsia;
+}
+
+#intro{
+    color:maroon;
+    background-color: mediumturquoise;
+}
+#select{
+    color: navy;
+}
+footer{
+    color: orange;
+    padding: 5px;
+}
+#throw{
+    color: royalblue;
+    font-size: small;
+}
+table{
+    border-color: turquoise;
+    border-width: 10px;
+    border-style: solid;
+    background-color:lime;
+    text-align: center;
+}
+tr,td,th{
+    border-color: turquoise;
+    border-width: 5px;
+    border-style: solid;
+    color: purple;
+}
